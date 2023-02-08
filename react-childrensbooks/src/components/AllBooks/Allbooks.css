@@ -1,0 +1,135 @@
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: small;
+  color: white;
+  font-size: 25px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 8px;
+  color: white;
+}
+
+.allbooks-container {
+  background-color: white;
+  width: 100%;
+  color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+.book-wrapper1 {
+  display: flex;
+  gap: 20px;
+}
+
+.book-wrapper2 {
+  display: flex;
+  gap: 20px;
+}
+
+.book__line {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 28.65%,
+    rgba(0, 0, 0, 0.4) 67.71%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 3px;
+  height: 270px;
+  position: absolute;
+}
+
+.book {
+  height: 250px;
+  width: 200px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: start;
+  padding: 20px;
+  position: relative;
+}
+
+.book1 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #f2c94c;
+}
+
+.book2 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #f2994a;
+}
+
+.book3 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #eb5757;
+}
+
+.book4 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #9b51e0;
+}
+
+.book5 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #56ccf2;
+}
+
+.book6 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #2f80ed;
+}
+
+.book7 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #6fcf97;
+}
+
+.book8 {
+  background: linear-gradient(
+      208.29deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 92.13%
+    ),
+    #27ae60;
+}
