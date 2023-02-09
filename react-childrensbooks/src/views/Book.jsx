@@ -1,7 +1,10 @@
 import React from "react";
 import "./Book.css";
+import books from "../assets/childrensbooks.json";
 
-export default function Book() {
+console.log(books);
+
+export default function Book({ title, author }) {
   return (
     <div className="book-container">
       <div className="container-header">

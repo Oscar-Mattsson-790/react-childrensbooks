@@ -6,11 +6,13 @@ import books from "./assets/childrensbooks.json";
 function App() {
   const [count, setCount] = useState(0);
 
-  console.log(books);
+  console.log("va e detta", books);
 
   return (
     <div className="App">
-      <Allbooks />
+      {books.map((book, key) => (
+        <Allbooks key={key} title={book.title} author={book.author} />
+      ))}
     </div>
   );
 }
