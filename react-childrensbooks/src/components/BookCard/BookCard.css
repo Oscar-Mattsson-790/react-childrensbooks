@@ -1,3 +1,15 @@
+h2 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 9px;
+  color: white;
+  margin-top: 0;
+}
+
 .bookCard-container {
   border-radius: 3px;
   padding: 7px;
@@ -18,8 +30,9 @@
 .book-line {
   position: absolute;
   width: 3px;
-  height: 264px;
-  margin: -8px;
+  height: 275px;
+  top: -5px;
+  left: 5px;
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0) 0%,
@@ -27,16 +40,4 @@
     rgba(0, 0, 0, 0.4) 67.71%,
     rgba(0, 0, 0, 0) 100%
   );
-}
-
-h2 {
-  font-size: 15px;
-  color: white;
-  margin-bottom: 0;
-}
-
-h3 {
-  font-size: 9px;
-  color: white;
-  margin-top: 0;
 }
