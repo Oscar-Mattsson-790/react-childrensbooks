@@ -2,13 +2,15 @@ import React from "react";
 import "./Book.css";
 import books from "../assets/childrensbooks.json";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 
 export default function Book(id) {
   const [bookData, setBookData] = useState(true);
+  const params = useParams();
 
-  const selectedBook = books.filter((book) => book.id === id);
+  const selectedBook = books.filter((book) => book.id === Number(params.id));
 
-  console.log(selectedBook);
+  console.log("bokens id= ", selectedBook);
 
   return (
     <div className="book-container">
