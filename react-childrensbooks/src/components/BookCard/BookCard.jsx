@@ -6,7 +6,7 @@ export default function BookCard({ book }) {
 
   return (
     <div className="bookCard-container" style={{ backgroundColor: `${color}` }}>
-      <article className="book">
+      <article className="single-book">
         <div className="book-line"></div>
         <h2>{title}</h2>
         <h3>{author}</h3>

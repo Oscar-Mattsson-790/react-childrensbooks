@@ -1,19 +1,28 @@
 import React from "react";
 import "./Book.css";
+import books from "../assets/childrensbooks.json";
+import { useState } from "react";
 
-export default function Book({ title, author, plot }) {
+export default function Book(id) {
+  const [bookData, setBookData] = useState(true);
+
+  const selectedBook = books.filter((book) => book.id === id);
+
+  console.log(selectedBook);
+
   return (
     <div className="book-container">
-      <div className="container-header">
-        <button className="arrow-btn">A</button>
-      </div>
+      <button className="return-btn">
+        <span>&#8592;</span>
+      </button>
       <div className="container-book">
-        <h2 id="bookh2">A Wrinkle in Time</h2>
-        <h3 id="bookh3">Madeleine L'Engle</h3>
+        <div className="book-line-second"></div>
+        <h1 className="book-title-first">A Wrinkle in Time</h1>
+        <h5 className="book-author-first">Madeleine L'Engle</h5>
       </div>
       <div className="container-book-info">
-        <h2>A Wrinkle in Time</h2>
-        <h3 id="bookh3second">By Madeleine L'Engle</h3>
+        <h4 className="book-title-second">A Wrinkle in Time</h4>
+        <h5 className="book-author-second">By Madeleine L'Engle</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Reprehenderit dolorum nisi dicta mollitia adipisci. Dolor pariatur

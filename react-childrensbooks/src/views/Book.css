@@ -1,21 +1,44 @@
 p {
   font-size: 12px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+span {
+  font-size: 20px;
+}
+
+.book-title-first {
+  margin-bottom: 0;
+}
+
+.book-author-first {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+.book-author-second {
+  margin-top: 0;
+  color: white;
+  font-weight: lighter;
+}
+
+.book-title-second {
+  margin: 0;
+  font-size: 30px;
+  color: white;
 }
 
 .book-container {
   display: flex;
-  width: 100%;
-  gap: 10px;
-}
-
-.arrow-btn {
-  display: flex;
   justify-content: center;
-  border-radius: 100%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: #121d1dcd;
   width: 50%;
-  height: 10%;
-  text-align: center;
-  align-items: center;
+  gap: 10px;
+  padding: 30px;
 }
 
 .container-book {
@@ -23,27 +46,16 @@ p {
   flex-direction: column;
   justify-content: end;
   align-items: flex-start;
+  border-radius: 5px;
   background: linear-gradient(
       208.29deg,
       rgba(255, 255, 255, 0.5) 0%,
       rgba(255, 255, 255, 0) 92.13%
     ),
     #6fcf97;
-  width: 100%;
+  width: 70%;
   padding: 30px;
-}
-
-#bookh2,
-#bookh3 {
-  color: black;
-}
-
-#bookh3 {
-  font-size: 15px;
-}
-
-#bookh3second {
-  font-size: 14px;
+  position: relative;
 }
 
 .container-book-info {
@@ -61,7 +73,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
   background: rgba(196, 196, 196, 0.08);
   border-radius: 2px;
   width: 100%;
@@ -69,7 +81,32 @@ p {
 
 .book-btn {
   background-color: aliceblue;
+  border-radius: 5px;
+  border-style: none;
   color: black;
   font-size: 13px;
   height: 40px;
+}
+
+.return-btn {
+  display: flex;
+  justify-content: center;
+  width: 60px;
+  height: 35px;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 11px;
+  border: none;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.book-line-second {
+  width: 3px;
+  height: 100%;
+  background-color: grey;
+  position: absolute;
+  top: 0.5px;
+  left: 13px;
 }
