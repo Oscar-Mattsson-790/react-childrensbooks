@@ -5,7 +5,7 @@ p {
 }
 
 span {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .book-title-first {
@@ -92,14 +92,13 @@ span {
   display: flex;
   justify-content: center;
   width: 60px;
-  height: 35px;
+  height: 55px;
   text-align: center;
   align-items: center;
   border-radius: 50%;
-  font-size: 11px;
   border: none;
-  margin-left: 0;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .book-line-second {

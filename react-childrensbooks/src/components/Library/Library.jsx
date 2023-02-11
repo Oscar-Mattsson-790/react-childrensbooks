@@ -16,7 +16,7 @@ export default function Library() {
         {books.map((book, key) => (
           <Link
             className="link"
-            to={"./book"}
+            to={`/book/${book.id}`}
             key={key}
             onClick={() => handleClick(book.id)}
           >
